@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #23313d;
+}
+
+.header div {
+  cursor: pointer;
+}
+
+.welcome {
+  background-color: #23313d;
+  padding: 2px;
+}
+
+.prediction_history {
+  text-align: center;
+}
+
+.prediction_history button {
+  background-color: #60991a;
+  border: 0px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.kickoff h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.testimonials_header {
+  margin: auto auto auto 5px;
+}
+
+.testimonials {
+  background-color: #23313d;
+  padding: 5px 5px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  margin: 0px 5px;
+}
+
+.avatar_icon {
+  background-color: #416969;
+  color: #23313d;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+hr {
+  width: 95%;
+  border: 0;
+  border-top: 0.5px solid #416969;
+}
+
+.FAQs {
+  background-color: #23313d;
+}
+
+.FAQs li {
+  list-style-type: numbers;
+}
+
+.FAQs li p span {
+  color: green;
+}
+
+.FAQs li p small {
+  color: #008080;
+}
+
+.support_container {
+  position: relative;
+}
+
+.support {
+  background-color: #60991a;
+  position: fixed;
+  right: 5px;
+  bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 5px;
+  align-items: baseline;
+}
+
+.footer small {
+  font-size: 12px;
+  margin: auto 2px auto 2px;
+}

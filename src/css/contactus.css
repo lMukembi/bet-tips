@@ -1,0 +1,35 @@
+.contactus {
+  z-index: 2;
+  margin: 5px;
+  background-color: #416969;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 10px;
+  left: 1px;
+  right: 1px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  margin: 5px 5px auto auto;
+  float: right;
+  font-size: 20px;
+}
+
+textarea {
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.contactus button {
+  background-color: #60991a;
+  border: 0px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  margin-top: 10px;
+}

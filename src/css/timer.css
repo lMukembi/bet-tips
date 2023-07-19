@@ -1,0 +1,11 @@
+.timer {
+  background-color: #60991a;
+  color: #fed800;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.timer div {
+  text-align: center;
+}

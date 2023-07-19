@@ -1,0 +1,55 @@
+.plans {
+  overflow-x: scroll;
+  display: flex;
+}
+
+.plans .plan {
+  margin: auto 5px auto 5px;
+  min-width: 150px;
+}
+
+.plans .plan {
+  text-align: center;
+  background-color: #23313d;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.plans .plan img {
+  object-fit: cover;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.plan .description {
+  color: #fed800;
+}
+
+.plans .plan button {
+  background-color: #60991a;
+  border: 0px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.plans .plan button :any-link {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .plans {
+    justify-content: space-evenly;
+  }
+
+  .plans::-webkit-scrollbar {
+    display: none;
+  }
+
+  .plans .plan img {
+    width: 250px;
+  }
+}
