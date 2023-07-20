@@ -9,7 +9,15 @@ const contactus = ({ close }) => {
       <small>BetTips</small>
       <p>Welcome to BetTips!</p>
       <textarea cols={10} rows={5} placeholder="How may we assist you today?" />
-      <button>Submit</button>
+      <button
+        onClick={() =>
+          alert(
+            "Sorry, your are not subscribed to BetTips. Kindly, subscribe and try again."
+          )
+        }
+      >
+        Submit
+      </button>
     </div>
   );
 };
