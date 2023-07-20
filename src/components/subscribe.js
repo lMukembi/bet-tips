@@ -1,13 +1,22 @@
 import React, { useEffect } from "react";
 import "../css/subscribe.css";
 import Lipanampesa from "../components/Lipanampesa.png";
+import { useNavigate } from "react-router-dom";
+import { IoChevronBack } from "react-icons/io5";
 
 const Subscribe = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <div className="subscribe">
+      <div onClick={() => navigate(-1)} className="subscribe_goback">
+        <small>
+          <IoChevronBack className="go_back" />
+        </small>
+        <small>Go back</small>
+      </div>
       <img src={Lipanampesa} alt="Lipa na Mpesa" />
       <p>
         PayBill Number: <small>90100</small>
