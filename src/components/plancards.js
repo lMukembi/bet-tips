@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/plancards.css";
-import Neymar from "../components/Neymar.jpg";
+import Neymar from "../components/Neymar.png";
 import Messi from "../components/Messi.jpg";
 import Ronaldo from "../components/Ronaldo.jpg";
 import Mbappe from "../components/Mbappe.jpg";

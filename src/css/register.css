@@ -1,0 +1,82 @@
+.register {
+  background-color: rgb(25, 25, 25);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.register_header {
+  font-size: 25px;
+  text-align: center;
+}
+
+.register_phone {
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.phone_info {
+  color: black;
+}
+
+.username {
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.username_info {
+  color: black;
+}
+
+.password {
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.register_button {
+  background-color: green;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+}
+
+.goback {
+  margin: 5px auto auto 5px;
+}
+
+.register_back {
+  display: flex;
+  align-items: center;
+}
+
+.tos {
+  text-decoration: none;
+  color: green;
+}
+
+.login_on_register {
+  text-decoration: none;
+  color: green;
+}
+
+.register_info {
+  text-align: center;
+}
+
+.register i {
+  cursor: pointer;
+  position: absolute;
+  top: 28.5%;
+  z-index: 2;
+  right: 7%;
+  color: green;
+}
