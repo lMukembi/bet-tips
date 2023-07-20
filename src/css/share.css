@@ -1,0 +1,30 @@
+.share_wrapper {
+  z-index: 2;
+  margin: 5px;
+  background-color: #416969;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 10px;
+  left: 1px;
+  right: 1px;
+  padding: 5px;
+}
+
+.share_title {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .share_wrapper {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.share_icons {
+  display: flex;
+}
+
+.share_icons p {
+  margin: 5px;
+}

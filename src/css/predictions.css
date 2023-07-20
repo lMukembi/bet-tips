@@ -1,0 +1,41 @@
+.predictions {
+  background-color: #16202c;
+  padding: 1px 2px;
+}
+
+@media only screen and (min-width: 600px) {
+  .predictions {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.predictions_goback {
+  display: flex;
+  cursor: pointer;
+}
+
+.team {
+  background-color: #23313d;
+  color: #008080;
+  padding: 2px;
+  font-weight: 600;
+}
+
+.markets p span {
+  color: #008080;
+}
+
+.markets p small {
+  color: #60991a;
+}
+
+.allodds {
+  background-color: #23313d;
+  padding: 3px;
+  font-weight: 600;
+}
+
+.allodds span {
+  color: #008080;
+}

@@ -3,9 +3,13 @@
   color: #fed800;
   display: flex;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .timer div {
   text-align: center;
+}
+
+.timer div p {
+  font-weight: 600;
 }

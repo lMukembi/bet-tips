@@ -1,0 +1,126 @@
+.account {
+  background-color: #16202c;
+  padding: 2px;
+}
+
+@media only screen and (min-width: 600px) {
+  .account {
+    width: 80%;
+    margin: auto;
+  }
+
+  .account_details_container {
+    background-color: #23313d;
+    border-radius: 5px;
+  }
+}
+
+.top {
+  display: flex;
+}
+
+.go_back {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.top :last-child {
+  margin: auto;
+}
+
+.top p {
+  display: flex;
+}
+
+.account_header {
+  display: flex;
+}
+
+.profile_image {
+  margin: 5px 5px;
+}
+
+.profile_image_icon {
+  background-color: #416969;
+  color: #23313d;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.account_details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.account_details span {
+  font-size: 30px;
+}
+
+.bonus_odds {
+  background-color: #283541;
+  padding: 5px 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.bonus_odds p span {
+  color: #60991a;
+}
+
+.bonus_odds span {
+  color: #008080;
+}
+
+.bonus_odds .h2 span {
+  color: #008080;
+}
+
+.bonus_odds p small {
+  color: #008080;
+}
+
+.bonus_awards {
+  background-color: #283541;
+  margin: 10px auto auto auto;
+  padding: 5px 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.bonus_awards .h2 span {
+  color: #008080;
+}
+
+.bonus_awards p small {
+  color: #60991a;
+}
+
+.bonus_awards p span {
+  color: #008080;
+}
+
+.account button {
+  background-color: #60991a;
+  border: 0px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.share {
+  background-color: #283541;
+  padding: 5px 5px;
+  margin: auto 5px auto 5px;
+  border-radius: 5px;
+}
+
+.share p span {
+  color: #008080;
+}
+
+.share_container {
+  position: relative;
+}

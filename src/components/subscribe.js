@@ -16,7 +16,7 @@ const Subscribe = () => {
         Account Number: <small>0010990100</small>
       </p>
       <div className="alert">
-        <h3>Alert!</h3>
+        <h2>Alert!</h2>
         <p>
           Sorry Dear, your account balance is 0. Deposit Ksh 99 to get today's
           tips.

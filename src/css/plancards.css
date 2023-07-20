@@ -10,7 +10,7 @@
 
 .plans .plan {
   text-align: center;
-  background-color: #23313d;
+  background-color: #283541;
   border-radius: 5px;
   padding: 30px;
 }
@@ -50,6 +50,6 @@
   }
 
   .plans .plan img {
-    width: 250px;
+    width: 200px;
   }
 }

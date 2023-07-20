@@ -12,10 +12,18 @@
   flex-direction: column;
 }
 
+@media only screen and (min-width: 600px) {
+  .contactus {
+    width: 80%;
+    margin: auto;
+  }
+}
+
 .close {
   margin: 5px 5px auto auto;
   float: right;
   font-size: 20px;
+  cursor: pointer;
 }
 
 textarea {

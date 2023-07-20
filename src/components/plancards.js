@@ -32,7 +32,7 @@ const plancards = () => {
       <div className="plan">
         <img src={Ronaldo} alt="Ronaldo" />
         <p>Silver</p>
-        <p>Price: Ksh. 239</p>
+        <p>Price: Ksh. 299</p>
         <p>Duration: 2 weeks</p>
         <p className="description">Recommended</p>
         <button>

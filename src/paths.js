@@ -5,6 +5,7 @@ import Home from "./components/home";
 import Login from "./components/login";
 import Register from "./components/register";
 import Subscribe from "./components/subscribe";
+import Predictions from "./components/predictions";
 
 const Paths = () => {
   return (
@@ -13,8 +14,9 @@ const Paths = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/account" element={<Account />} />
+        <Route path="/my-account" element={<Account />} />
         <Route path="/subscribe" element={<Subscribe />} />
+        <Route path="/yesterday-predictions" element={<Predictions />} />
       </Routes>
     </Router>
   );

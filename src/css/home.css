@@ -1,3 +1,15 @@
+@media only screen and (min-width: 600px) {
+  .home {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.home_container {
+  background-color: #23313d;
+  border-radius: 5px;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -8,15 +20,20 @@
   left: 0;
   right: 0;
   z-index: 2;
-  background-color: #23313d;
+  background-color: #283541;
 }
 
 .header div {
   cursor: pointer;
 }
 
+.header div :any-link {
+  text-decoration: none;
+  color: white;
+}
+
 .welcome {
-  background-color: #23313d;
+  background-color: #283541;
   padding: 2px;
 }
 
@@ -36,6 +53,11 @@
   color: white;
 }
 
+.prediction_history button :any-link {
+  text-decoration: none;
+  color: white;
+}
+
 .kickoff h2 {
   text-align: center;
 }
@@ -49,8 +71,9 @@ h3 {
 }
 
 .testimonials {
-  background-color: #23313d;
+  background-color: #283541;
   padding: 5px 5px;
+  border-radius: 5px;
 }
 
 .testimonial {
@@ -82,7 +105,8 @@ hr {
 }
 
 .FAQs {
-  background-color: #23313d;
+  background-color: #283541;
+  border-radius: 5px;
 }
 
 .FAQs li {
@@ -109,6 +133,7 @@ hr {
   padding: 10px;
   border-radius: 5px;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .footer {
