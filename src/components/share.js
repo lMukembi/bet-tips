@@ -17,7 +17,7 @@ import {
 } from "react-share";
 
 const share = ({ close }) => {
-  const shareUrl = "http://localhost:3000/";
+  const shareUrl = "http://bettips.netlify.app";
   return (
     <div className="share_wrapper">
       <MdClose className="close" onClick={() => close()} />

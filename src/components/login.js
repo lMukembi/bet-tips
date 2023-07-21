@@ -25,19 +25,17 @@ const Login = () => {
     e.preventDefault();
 
     dispatch(login(formData));
-
-    navigate(-1);
   };
 
   return (
     <form className="login" onSubmit={handleLogin}>
-      <div className="about_game_back" onClick={() => navigate(-1)}>
+      <div className="login_back" onClick={() => navigate(-1)}>
         <small>
           <IoIosArrowBack className="goback" />
         </small>
         <small>Go back</small>
       </div>
-      <h1 className="login_header">LOGIN TO SPRIBE AVIATOR</h1>
+      <h1 className="login_header">BetTips</h1>
       <input
         placeholder="Enter phone number"
         className="register_phone"
@@ -58,15 +56,10 @@ const Login = () => {
         {showPassword ? <MdVisibility /> : <MdVisibilityOff />}
       </i>
       <button className="login_button">LOGIN</button>
-      <small className="forgot_password_on_login">
-        <Link to="/forgotpassword" className="forgot_password_link">
-          Forgot password?
-        </Link>
-      </small>
       <p className="login_info">
         Don’t have an account?
         <Link to="/register" className="register_on_login">
-          Register
+          Create Account
         </Link>
         .
       </p>

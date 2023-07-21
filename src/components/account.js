@@ -109,7 +109,7 @@ const Account = () => {
           <button
             onClick={() =>
               alert(
-                "Your Bonus Awards balance is Zero. Kindly, get more Bonus Awards and try again."
+                "Your Bonus Awards balance is 0. Kindly, get more Bonus Awards and try again."
               )
             }
           >

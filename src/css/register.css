@@ -1,10 +1,9 @@
 .register {
-  background-color: rgb(25, 25, 25);
+  background-color: #283541;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   padding: 5px;
-  margin-top: 10px;
 }
 
 .register_header {
@@ -18,19 +17,11 @@
   font-size: 15px;
 }
 
-.phone_info {
-  color: black;
-}
-
 .username {
   padding: 1rem;
   border-radius: 10px;
   font-size: 15px;
   margin-top: 10px;
-}
-
-.username_info {
-  color: black;
 }
 
 .password {
@@ -41,11 +32,13 @@
 }
 
 .register_button {
-  background-color: green;
+  background-color: #60991a;
   border-radius: 10px;
   padding: 1rem;
-  font-size: 25px;
+  font-size: 20px;
+  cursor: pointer;
   color: white;
+  border: 0px;
   margin-top: 10px;
 }
 
@@ -56,16 +49,17 @@
 .register_back {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .tos {
   text-decoration: none;
-  color: green;
+  color: #60991a;
 }
 
 .login_on_register {
   text-decoration: none;
-  color: green;
+  color: #60991a;
 }
 
 .register_info {
@@ -75,8 +69,20 @@
 .register i {
   cursor: pointer;
   position: absolute;
-  top: 28.5%;
+  top: 30.5%;
   z-index: 2;
-  right: 7%;
-  color: green;
+  right: 13.5%;
+  color: #60991a;
+}
+
+@media only screen and (min-width: 600px) {
+  .register {
+    width: 80%;
+    margin: 10% auto;
+  }
+
+  .register i {
+    top: 47%;
+    right: 17%;
+  }
 }

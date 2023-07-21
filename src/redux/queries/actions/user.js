@@ -24,7 +24,6 @@ export const register = (formData) => async (dispatch) => {
       {
         password: formData.password,
         phone: formData.phone,
-        email: formData.email,
       },
       config
     );
@@ -36,6 +35,7 @@ export const register = (formData) => async (dispatch) => {
     if (data) {
       alert("Account created successfully.");
     }
+    window.location.reload();
   } catch (error) {
     console.log(error);
     if (error) {
@@ -71,6 +71,7 @@ export const login = (formData) => async (dispatch) => {
     if (data) {
       alert("Logged in successfully.");
     }
+    window.location.reload();
   } catch (error) {
     console.log(error);
     if (error) {

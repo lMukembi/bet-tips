@@ -37,7 +37,7 @@ const Register = () => {
         </small>
         <small>Go back</small>
       </div>
-      <h1 className="register_header">REGISTER TO SPRIBE AVIATOR</h1>
+      <h1 className="register_header">BetTips</h1>
       <input
         placeholder="Phone number"
         className="register_phone"
@@ -46,10 +46,6 @@ const Register = () => {
         value={formData.phone}
         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
       />
-      <small className="phone_info">
-        Please enter a valid MPESA number. All deposits & withdrawals will be
-        made through this number.
-      </small>
       <input
         placeholder="password"
         className="password"
@@ -61,7 +57,7 @@ const Register = () => {
       <i onClick={handleShowPassword}>
         {showPassword ? <MdVisibility /> : <MdVisibilityOff />}
       </i>
-      <button className="register_button">JOIN SPRIBE AVIATOR</button>
+      <button className="register_button">CREATE ACCOUNT</button>
       <p>
         By using this platform I attest that I am at least 18 years old and have
         read and agree to the

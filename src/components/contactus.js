@@ -6,9 +6,21 @@ const contactus = ({ close }) => {
   return (
     <div className="contactus">
       <MdClose className="close" onClick={() => close()} />
-      <small>BetTips</small>
+      <p>
+        <small>BetTips</small>
+      </p>
       <p>Welcome to BetTips!</p>
-      <textarea cols={10} rows={5} placeholder="How may we assist you today?" />
+      <textarea
+        cols={10}
+        rows={5}
+        placeholder="How may we assist you today?"
+        onClick={() =>
+          alert(
+            "Sorry, your are not subscribed to BetTips. Kindly, subscribe and try again."
+          )
+        }
+        onFocus={(e) => e.target.blur()}
+      />
       <button
         onClick={() =>
           alert(

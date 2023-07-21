@@ -1,3 +1,6 @@
+.home {
+  position: relative;
+}
 .home_container {
   background-color: #23313d;
   border-radius: 5px;
@@ -14,22 +17,6 @@
   right: 0;
   z-index: 2;
   background-color: #283541;
-}
-
-@media only screen and (min-width: 600px) {
-  .home {
-    width: 80%;
-    margin: auto;
-  }
-
-  .header {
-    left: 10%;
-    right: 10%;
-  }
-
-  .support {
-    right: 12%;
-  }
 }
 
 .header div {
@@ -113,6 +100,27 @@ hr {
   border-top: 0.5px solid #416969;
 }
 
+.add_testimony {
+  display: flex;
+  flex-direction: column;
+}
+
+.add_testimony textarea {
+  margin: 5px;
+}
+
+.add_testimony button {
+  margin: 5px 5px 5px auto;
+  background-color: #60991a;
+  border: 0px;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  width: 30%;
+}
+
 .FAQs {
   background-color: #283541;
   border-radius: 5px;
@@ -154,4 +162,24 @@ hr {
 .footer small {
   font-size: 12px;
   margin: auto 2px auto 2px;
+}
+
+@media only screen and (min-width: 600px) {
+  .home {
+    width: 80%;
+    margin: auto;
+  }
+
+  .header {
+    left: 10%;
+    right: 10%;
+  }
+
+  .support {
+    right: 12%;
+  }
+
+  .add_testimony {
+    width: 30%;
+  }
 }
