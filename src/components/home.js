@@ -23,9 +23,9 @@ const Home = () => {
     dispatch(getUser());
   });
 
-  if (!userData) {
-    // return <Login />;
-  }
+  // if (!userData) {
+  //   return <Login />;
+  // }
   return (
     <div className="home">
       <div className="home_container">
